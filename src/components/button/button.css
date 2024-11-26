@@ -1,0 +1,12 @@
+.button{
+    display: flex;
+    padding: 12px 25px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    outline: none;
+    border-radius: 12px;
+    border: none;
+
+
+}

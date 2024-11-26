@@ -1,0 +1,154 @@
+.chat-window {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    left: 20%; */
+    padding-left: 100px;
+    padding-top: 120px;
+    overflow-y: scroll;
+}
+.img-screen img{
+    width: 500px;
+    height: 100%;
+    border-radius: 30%;
+    margin-bottom: 12px;
+}
+
+.question {
+
+    color: white;
+    background-color: #222;
+    box-shadow: 1px 1px 1px #34495e;
+    padding: 23px;
+    border-radius: 12px 200px ;
+    /* width: 90%;
+        margin: 0 auto;
+        z-index: 1; */
+        margin-bottom: 6rem;
+        padding: 23px;
+            border-radius: 12px 12px;
+            width: 50%;
+            margin: 0 auto;
+}
+.question:nth-child(2n){
+margin-left: 9rem;
+}
+
+.answer  {
+    color: white;
+    background-color: #500fc9;
+    background-color: #f36523;
+    padding: 23px;
+    border-radius: 12px 12px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.messages {
+    flex: 1;
+    overflow-y: auto;
+    width: 70%;
+    margin: 0 auto; 
+    
+}
+
+.message {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #3498db;
+    /* width: 50%; */
+    color: white;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+.input {
+    display: flex;
+    position: fixed;
+    bottom: 12px;
+    align-items: center;
+    transform: translateX(-50%);
+    left: 55%;
+    width: 30%;
+    /* background-color:red; */
+    background-color: #222;
+    border-radius: 12px;
+    padding-left: 3px;
+    
+    
+}
+
+.input input {
+    flex: 1;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #222;
+}
+.items{
+    display: flex;
+    gap: 12px;
+}
+ span{
+    padding: 12px;
+    cursor: pointer;
+    /* border: 1px solid #f36523; */
+}
+
+.input button {
+    padding: 14px;
+    background-color: #f36523;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input button:hover {
+    background-color: #34495e;
+}
+
+.suprise{
+    display: flex;
+        position: fixed;
+        bottom: 12px;
+        align-items: center;
+        transform: translateX(-50%);
+        left: 35%;
+        padding: 14px;
+            background-color: #f36523;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border-radius: 12px;
+       
+
+}
+
+.model-avatar{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px solid #f36523;
+}
+
+.role{
+    display: flex;
+    align-items: center;
+}
+
+.error{
+    color: rgb(168, 33, 33);
+    text-align: center;
+}

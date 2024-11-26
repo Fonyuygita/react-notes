@@ -1,0 +1,28 @@
+.team_container{
+width: 100%;
+min-height: 100vh;
+padding: 23px;
+background-color: azure;
+}
+
+.team{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+
+}
+
+.student{
+    background-color: beige;
+    /* width: 420px; */
+}
+
+.student img{
+    width: 100%;
+    height: 200px;
+    /* object-fit: contain; */
+    object-fit: cover;
+}

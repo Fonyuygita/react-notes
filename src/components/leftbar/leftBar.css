@@ -1,0 +1,29 @@
+.right-container{
+    /* width: 100%; */
+    margin-left: 45px;
+    position: fixed;
+    top: 130px;
+    left: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.card{
+    background-color: #000;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 246px;
+    border-radius: 12px;
+    box-shadow: -7px 6px 6px 2px #4555;
+    padding: 12px;
+
+}
+
+.right-container .imgBox img{
+    width: 100%;
+}
+
+.desc{
+    width: 100%;
+}

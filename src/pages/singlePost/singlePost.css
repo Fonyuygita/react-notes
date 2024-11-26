@@ -1,0 +1,29 @@
+.news-detail {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.news-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.news-detail h1 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+.news-detail p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.news-detail a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+}

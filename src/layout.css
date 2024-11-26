@@ -1,0 +1,26 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    /* gap: 12px; */
+    margin-top: 15rem;
+    min-height: 100vh;
+    width: 100%;
+    /* margin: 0 auto; */
+    /* overflow-y: scroll; */
+    
+}
+
+.mid{
+    display: flex;
+    gap: 23px;
+    position: relative;
+    top: 10px;
+}
+.left{
+    flex: 1;
+/* min-height: 100vh; */
+}
+
+.content{
+    flex: 3;
+}

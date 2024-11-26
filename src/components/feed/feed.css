@@ -1,0 +1,84 @@
+/* General Styling */
+.news-feed {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* News Item */
+.news-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    margin: 10px 0;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Avatar */
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* News Content */
+.news-content {
+    flex: 1;
+}
+
+/* News Header */
+.news-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* News Name */
+.news-name {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+/* Icons */
+.legit-icon {
+    color: #1da1f2;
+    /* Blue for legit news */
+}
+
+.desc{
+    color: #444;
+}
+.border{
+    border:2px solid #1da1f2;
+}
+.fake-icon {
+    color: #d9534f;
+    /* Red for fake news */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .news-feed {
+        padding: 10px;
+    }
+
+    .news-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .avatar {
+        margin-bottom: 10px;
+    }
+
+    .news-header {
+        justify-content: center;
+    }
+}

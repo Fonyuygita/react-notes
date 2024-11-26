@@ -1,0 +1,9 @@
+.hero{
+    width: 100%;
+    max-height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}

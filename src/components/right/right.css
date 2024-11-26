@@ -1,0 +1,78 @@
+/* General Styling for RightBar */
+.rightbar {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* News List */
+.news-list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* RightBar Item */
+.rightbar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* News Icon */
+.news-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.name{
+    color: #333;
+    /* font-size: 22px; */
+    
+}
+/* News Info */
+.news-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+/* Verification Icon */
+.verify-icon {
+    color: #1da1f2;
+    margin-left: 5px;
+}
+
+/* Follow Button */
+.follow-button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.follow-button:hover {
+    background-color: #0a85d7;
+}
+
+/* Responsive RightBar */
+@media (max-width: 768px) {
+    .rightbar {
+        display: none;
+    }
+}
