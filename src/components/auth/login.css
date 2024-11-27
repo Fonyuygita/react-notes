@@ -5,15 +5,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
 }
 
 /* Auth Card */
 .auth-card {
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 100%;
     max-width: 400px;

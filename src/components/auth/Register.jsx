@@ -72,7 +72,7 @@ const Registration = () => {
 
     return (
         <div className="auth-container">
-            <div className="cover-image"></div>
+
             <div className="auth-card">
                 <h2>Register</h2>
                 <form onSubmit={handleSubmit}>
